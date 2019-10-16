@@ -15,7 +15,6 @@ class Triangle extends Polygon {
   super(arr)
   }
    get isValid() {
-  //  if (!Array.isArray(this.sides)) return;
     if (this.arr.length !== 3) return;
     let side1 = this.arr[0];
     let side2 = this.arr[1];
